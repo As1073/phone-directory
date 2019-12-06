@@ -29,7 +29,7 @@ class ShowSubscribers extends Component {
                 <span className="grid-item">{sub.name}</span>
                 <span className="grid-item">{sub.phone}</span>
                 <span className="grid-item action-btn-container">
-                  <button className="custom-btn delete-btn"  onClick={this.onDeletedClick.bind(this, sub.id)}>Delete</button>
+                <button className="custom-btn delete-btn"  onClick={this.onDeletedClick.bind(this, sub.id)}>Delete</button>
                 </span>
               </div>
             })
