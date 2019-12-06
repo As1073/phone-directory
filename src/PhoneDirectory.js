@@ -55,7 +55,6 @@ class PhoneDirectory extends Component {
                     <Route exact path="/add" render={({history}, props) => <AddSubscriber history={history} {...props} addSubscriberHandler={this.addSubscriberHandler} />} />
                 </div>
             </Router>
-            
         )
     }
 }
